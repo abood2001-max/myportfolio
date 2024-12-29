@@ -1,0 +1,850 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.groub {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #8a2be2, #ff007f);
+    color: white;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 390px;
+    width: auto;
+    height: auto;
+    top: 36px;
+    font-size: 15px
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #EF2779;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background: rgb(243, 194, 194);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #8a2be2, #ff007f);
+    color: white;
+    padding: 50px 0;
+    padding-top: 86px;
+
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+
+.hero-text p {
+    margin-bottom: 16px;
+    font-family: Roboto;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    padding: 9px 42px;
+    background: white;
+    color: #38A3F1;
+    text-decoration: none;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-text .btn:hover {
+    background: rgb(237, 237, 250);
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.features {
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+}
+
+.features1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+
+
+.features1 h2 {
+    color: #252B42;
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+.features1 h1 {
+    font-size: 46px;
+    color: #252B42;
+    font-family: Roboto;
+}
+
+.features1 p {
+    font-size: 16px;
+    color: #252B42;
+    font-family: Roboto;
+}
+
+.features2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 90px;
+    justify-content: space-between;
+    text-align: center;
+    gap: 38px;
+
+}
+
+.features2 .o1 {
+    padding-left: 217px;
+}
+
+
+.features2 .o1 img {
+    position: absolute;
+    left: 195px;
+    width: 37px;
+}
+
+.features2 .o1 h1 {
+    font-size: 22px;
+    color: #252B42;
+    font-family: Roboto;
+}
+
+.features2 .o1 p {
+    font-size: 15px;
+    color: #252B42;
+    font-family: Roboto;
+}
+
+.features2 .o2 img {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    left: 600px;
+    width: 37px;
+    ;
+}
+
+
+
+.features2 .o2 h1 {
+    font-size: 22px;
+    color: #252B42;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.features2 .o2 p {
+    font-size: 15px;
+    font-family: Roboto;
+    color: #252B42;
+    font-weight: bold;
+}
+
+.features2 .o3 {
+    padding-right: 113px;
+}
+
+.features2 .o3 img {
+    position: absolute;
+    right: 292px;
+    width: 37px;
+}
+
+.features2 .o3 h1 {
+    font-size: 22px;
+    color: #252B42;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.features2 .o3 p {
+    font-size: 15px;
+    color: #252B42;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.prototyping {
+    width: 100%;
+    height: 100%;
+
+    padding-top: 105px;
+
+}
+
+.prototyping1 {
+    width: auto;
+
+}
+
+.prototyping1 h1 {
+    color: #252B42;
+    font-size: 44px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.prototyping1 p {
+    color: #252B42;
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.prototyping2 {
+    width: auto;
+
+}
+
+.prototyping .prototyping2 a {
+    display: inline-block;
+    padding: 9px 42px;
+    background: #38A3F1;
+    color: white;
+    text-decoration: none;
+    border-radius: 22px;
+    font-size: 22px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.prototyping .prototyping2 .but:hover {
+    background: rgb(116, 116, 156);
+}
+
+.prototyping .prototyping2 {
+    padding-top: 65px;
+    text-align: center;
+}
+
+
+
+
+.prototyping .prototyping3 {
+    width: auto;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.prototyping .prototyping3 img {
+    width: 80%;
+}
+
+/* ============================== =============================================================          1 */
+.weird-container1 {
+    padding-top: 90px;
+}
+
+.weird-container {
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+    background: linear-gradient(to bottom, #8a2be2, #ff007f);
+    padding-top: 80px;
+}
+
+.weird-heading {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+    font-family: Roboto;
+}
+
+.weird-title {
+    font-size: 32px;
+    margin: 10px 0;
+    color: white;
+    font-family: Roboto;
+}
+
+.weird-subtitle {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto;
+}
+
+.weird-note {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.weird-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weird-input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.weird-button {
+    padding: 10px 96px;
+    background: #ff007f;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.weird-button:hover {
+    background: #ff4da6;
+}
+
+/* =================================================================================================       2  */
+.partners-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.partners-title {
+    font-size: 46px;
+    color: black;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+
+.partners-subtitle {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 40px;
+    font-family: Roboto;
+}
+
+/* الشبكة */
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* كروت الشركاء */
+.partner-card {
+    background: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    text-align: center;
+}
+
+.partner-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.partner-name {
+    font-size: 12px;
+    color: #374754;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.partner-text {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* زر "Try For Free" */
+.try-free-button {
+    background-color: #38A3F1;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: background-color 0.3s;
+}
+
+.try-free-button:hover {
+    background-color: #0056b3;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++      3    */
+.testimonial-section {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+
+.testimonial-title {
+    font-size: 46px;
+    color: #252B42;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+
+.testimonial-content {
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.testimonial-logo {
+    max-width: 229px;
+    margin-bottom: 50px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #374754;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* معلومات المستخدم */
+.testimonial-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial-user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-user-info {
+    text-align: left;
+}
+
+.testimonial-user-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial-user-role {
+    font-size: 12px;
+    color: #888;
+}
+
+/* زر المزيد */
+.testimonial-button {
+    background-color: #38A3F1;
+    color: #fff;
+    padding: 21px 65px;
+    border: none;
+    border-radius: 35px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.testimonial-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* ========================================================================================================      4         */
+.section-title {
+    font-size: 46px;
+    color: #252B42;
+    text-align: center;
+    margin: 20px 0 10px;
+    font-family: Roboto;
+}
+
+.section-subtitle {
+    font-size: 16px;
+    color: #374754;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* قسم التسعير */
+.pricing-section {
+    padding: 40px 20px;
+}
+
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.pricing-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.highlighted-card {
+    background: linear-gradient(135deg, #EF2779, #7834BE);
+    color: #fff;
+}
+
+.pricing-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+}
+
+.pricing-description {
+    font-size: 12px;
+    color: #374754;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+
+.highlighted-card .p .p1 {
+    color: white;
+    font-family: Roboto;
+}
+
+.highlighted-card .pricing-duration1 {
+    color: white;
+    font-family: Roboto;
+}
+
+
+.pricing-price {
+    font-size: 36px;
+
+
+}
+
+.pricing-duration {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+
+.order-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 84px;
+    font-size: 16px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.highlighted-card .order-button1 {
+    background-color: white;
+    color: #EF2779;
+    padding: 10px 83px;
+    font-size: 16px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 13px;
+}
+
+.order-button1:hover {
+    background-color: #7a4b63;
+}
+
+.order-button:hover {
+    background-color: #0056b3;
+}
+
+/* قسم التواصل */
+.contact-section {
+    background-color: #252B42;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section .section-title {
+    color: white;
+    font-family: Roboto;
+    font-size: 46PX;
+}
+
+.contact-section .section-subtitle {
+    color: white;
+    font-family: Roboto;
+    font-size: 16PX;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    color: #333;
+    height: 445px;
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 22px 0px;
+    border: 1px solid #ddd;
+    border-radius: 26px;
+    font-size: 14px;
+}
+
+.contact-textarea {
+    height: 100px;
+}
+
+.contact-submit {
+    background-color: #EF2779;
+    color: #fff;
+    padding: 11px 38px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 11px;
+}
+
+.contact-submit:hover {
+    background-color: #ff5270;
+}
+
+.contact-info {
+    text-align: left;
+    max-width: 400px;
+    padding-left: 70px;
+    padding-top: 55px;
+}
+
+.contact-address,
+.contact-phone,
+.contact-email {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+    padding-left: 22px;
+}
+
+.social-icon {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ff758c;
+}
+
+/* ============================================================================================          5               */
+.map-contact-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* قسم الصفحات */
+.pages-section {
+    text-align: left;
+    margin-top: 80px;
+}
+
+.pages-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #252B42;
+    font-family: Roboto;
+}
+
+.pages-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pages-list li {
+    font-size: 15px;
+    color: #252B42;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* قسم الخريطة */
+.map-section {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.map-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* قسم التواصل */
+.contact-details {
+    text-align: left;
+    margin-top: 120px;
+    padding-left: 30px;
+}
+
+.contact-address1,
+.contact-phone1,
+.contact-email1 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #374754;
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+
+.contact-icon {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ff4081;
+}
+
+.social-icons1 {
+    display: flex;
+    gap: 20px;
+    margin-top: 54px;
+}
+
+.social-icon2 {
+    font-size: 24px;
+    color: #ff4081;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #d6336c;
+}
